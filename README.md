@@ -2,7 +2,7 @@
 
 **Repository:** https://github.com/server23/starwars-api
 
-Java REST API that wraps [SWAPI](https://swapi.dev) and exposes paginated people data, character details, and a mocked authentication flow.
+Java REST API that wraps [The Star Wars API (SWAPI)](https://swapi.dev/api/people/) and exposes paginated people data, character details, and a mocked authentication flow.
 
 ## Requirements
 
