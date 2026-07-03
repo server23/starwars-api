@@ -1,5 +1,7 @@
 # Star Wars API
 
+**Repository:** https://github.com/server23/starwars-api
+
 Java REST API that wraps [SWAPI](https://swapi.dev) and exposes paginated people data, character details, and a mocked authentication flow.
 
 ## Requirements
@@ -139,24 +141,3 @@ Log level for the application is `INFO` (see `application.properties`).
 - **Mock auth with UUID tokens** instead of JWT to keep the assessment focused on flow and error handling.
 - **Global exception handler** maps domain exceptions to HTTP 400, 401, 404, and 503.
 - **Spotless** enforces consistent Java formatting.
-
-## Submit to GitHub
-
-1. Create a **public** repository on GitHub (e.g. `starwars-api`).
-2. From the project folder:
-
-```bash
-git init
-git add .
-git commit -m "Star Wars API assessment"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/starwars-api.git
-git push -u origin main
-```
-
-3. Replace `YOUR_USERNAME` with your GitHub username.
-4. Add the repository URL at the top of this README before submitting:
-
-```markdown
-**Repository:** https://github.com/YOUR_USERNAME/starwars-api
-```
